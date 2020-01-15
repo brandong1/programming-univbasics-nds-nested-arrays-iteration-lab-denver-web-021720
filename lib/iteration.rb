@@ -12,6 +12,7 @@ def join_ingredients(src)
   while index < src.size do 
     inner_array = src[index]
     arr << "I love #{inner_array[0]} and #{inner_array[1] on my pizza"
+  end
 end
 
 def find_greater_pair(src)
