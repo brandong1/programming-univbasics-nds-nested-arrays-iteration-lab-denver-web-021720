@@ -25,7 +25,7 @@ def find_greater_pair(src)
   
   index = 0 
   while index < src.size do 
-    
+    arr <<  (src[index][0] > src[index][1] ? src[index][0] : src[index][1])
 end
 
 def total_even_pairs(src)
