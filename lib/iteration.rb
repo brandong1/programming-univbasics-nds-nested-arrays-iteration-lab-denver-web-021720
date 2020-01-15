@@ -9,7 +9,8 @@ def join_ingredients(src)
   arr = []
   
   index = 0
-  while index < src.size
+  while index < src.size do 
+    
 end
 
 def find_greater_pair(src)
