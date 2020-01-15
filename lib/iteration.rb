@@ -11,7 +11,8 @@ def join_ingredients(src)
   index = 0
   while index < src.size do 
     inner_array = src[index]
-    arr << "I love #{inner_array[0]} and #{inner_array[1] on my pizza"
+    arr << "I love #{inner_array[0]} and #{inner_array[1]} on my pizza"
+    index += 1
   end
 end
 
