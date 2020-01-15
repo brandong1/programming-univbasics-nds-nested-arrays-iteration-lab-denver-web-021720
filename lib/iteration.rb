@@ -10,7 +10,7 @@ def join_ingredients(src)
   
   index = 0
   while index < src.size do 
-    
+    inner_array = 0
 end
 
 def find_greater_pair(src)
