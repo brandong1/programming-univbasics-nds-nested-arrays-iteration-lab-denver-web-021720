@@ -14,6 +14,7 @@ def join_ingredients(src)
     arr << "I love #{inner_array[0]} and #{inner_array[1]} on my pizza"
     index += 1
   end
+  arr
 end
 
 def find_greater_pair(src)
